@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'colors';
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+h3 {
+  font-size: $fontNormal;
+}
