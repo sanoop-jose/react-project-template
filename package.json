@@ -27,25 +27,28 @@
   },
   "homepage": "https://github.com/sanoop-jose/react-project-template#readme",
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-eslint": "^7.2.2",
-    "babel-loader": "^6.4.1",
-    "babel-polyfill": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^7.0.0-beta.37",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.2"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
   },
   "dependencies": {
-    "css-loader": "^0.28.0",
-    "node-sass": "^3.9.3",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-hot-loader": "^1.3.1",
-    "react-router-dom": "^4.1.1",
-    "react-single-dropdown": "git+https://github.com/sanoop-jose/react-single-dropdown.git",
-    "sass-loader": "^6.0.3",
-    "style-loader": "^0.16.1"
+    "css-loader": "^0.28.8",
+    "node-sass": "^4.7.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^3.1.3",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1"
   }
 }

@@ -19,18 +19,22 @@ Simple react project template that includes following features
 
 ## Project folder structure
     src
-    ├── actions
-    ├── components
-    ├── containers
-    │   ├── App.js
-    ├── images
-    ├── reducers 
-    ├── styles
-    │   ├── app.scss
-    │   ├── _variables.scss
-    │   ├── _colors.scss
-    │   ├── _font.scss
-    ├── utils
+    ├── app
+    │  ├── actions
+    │  ├── assets
+    │  │   ├── images
+    │  ├── components
+    │  ├── containers
+    │  ├── reducers
+    │  │   ├── index.js
+    │  │   ├── globalData
+    │  ├── styles
+    │  │   ├── app.scss
+    │  │   ├── _variables.scss
+    │  │   ├── _colors.scss
+    │  │   ├── _font.scss
+    │  ├── index.js
+    │  ├── App.js
     ├── index.html
     └── index.js
 
@@ -40,7 +44,7 @@ Simple react project template that includes following features
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 <Router>
-    <Route exact path="/" component={App}/>
+  <Route path="/:filter?" component={App} />
 </Router>
 ```
 
