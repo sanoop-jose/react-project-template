@@ -20,24 +20,24 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
-        loaders: ['react-hot'],
+        loaders: ['react-hot-loader/webpack'],
         include: path.join(__dirname, '../src')
       },
       {
         test: /\.js$/,
-        loader: 'babel',
+        loader: 'babel-loader',
         include: path.join(__dirname, '../src'),
       },
       {
         test: /\.(png|jpg)$/,
-        loader: 'file?name=images/[name].[ext]'
+        loader: 'file-loader?name=images/[name].[ext]'
       },
       {
         test: /\.html$/,
-        loader: 'file?name=[name].html'
+        loader: 'file-loader?name=[name].html'
       },
       { test: /\.scss$/, loader: 'style-loader!css-loader?minimize!sass-loader' },
       { test: /\.css$/, loader: 'style-loader!css-loader?minimize' }
